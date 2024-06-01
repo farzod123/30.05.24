@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+        <style>
+                
+                *{
+                        padding: 0;
+                        margin: 0;
+                        box-sizing: border-box;
+                }
+
+                body{
+                        margin: 0;
+                        padding: 0;
+                        height: 2200px;
+                }
+
+                img{
+                        max-width: 100%;
+                }
+
+                .container{
+                        margin: 15px auto;
+                        max-width: 1200px;
+                }
+
+                header{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 30px;
+                }
+
+                .head1{
+                        font-family: Roboto;
+                        font-size: 14px;
+                }
+
+                a{
+                        color: black;
+                        text-decoration: none;
+                }
+
+                .first{
+                        background-color: #f5f5f7;
+                        max-width: 1000px;
+                        min-height: 100px;
+                        margin-left: 100px;
+                        margin-top: 25px;
+                        display: flex;
+                        align-items: center;
+                        border-radius: 5px;
+                }
+
+                .second{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 5px;
+                }
+
+                .second p{
+                        font-family: Roboto;
+                        font-size: 12px;
+
+                }
+
+                .second img{
+                        max-width: 25px;
+                }
+
+                .third{
+                        font-family: Roboto;
+                        padding: 50px 0 20px;
+                        display: flex;
+                        align-items: center;
+                }
+
+                .third h1{
+                        font-size: 50px;
+                }
+
+                .third p{
+                        font-size: 15px;
+                        font-weight: normal;
+                        padding-top: 10px;
+                        color: rgb(29, 29, 31)
+                }
+
+                .btn1{
+                        font-family: Roboto;
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                        justify-content: center;
+                        height: 40px;
+                        border: none;
+                        border-radius: 30px;
+                        margin-top: 10px;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        color: black;
+
+                }
+
+                .image_container{
+                        width: 100%;
+                        height: 450px;
+                        position: relative;
+                        margin-top: 30px;
+
+                }
+
+                .image_container #image{
+                        border-radius: 20px;
+
+                }
+
+                .phones{
+                        display: flex;
+                        align-items: flex-start
+                }
+
+                .sort{
+                        margin-top: 50px;
+                        margin-left: 50px;
+                }
+
+                .sort p{
+                        font-family: Roboto;
+                        font-size: 25px;
+                        font-weight: bold;
+
+                }
+
+                .sort .Iphone15{
+                        width: 270px;
+                        height: 50px;
+                        margin-top: 10px;
+                        text-align: start;
+                        padding-left: 10px;
+                        font-weight: bold;
+                        background-color: white;
+                        border-radius: 10px;
+                        border-width: 1px;
+                        border-color: black;
+                        border-color: grey
+                }
+
+                .sort .help{
+                        width: 270px;
+                        height: 60px;
+                        margin: 30px 0 50px;
+                        border: none;
+                        border-radius: 10px;
+                }
+
+                .naturaltitanium{
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        border: none;
+                        background-color: #bbb5a9;
+                }
+
+                .blacktitanium{
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        border: none;
+                        background-color: #525355;
+                }
+
+                .bluetitanium{
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        border: none;
+                        background-color: #4b5262;
+                }
+
+                .whitetitanium{
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        border: none;
+                        background-color: #f3f2ed;
+                }
+
+                .memory button{
+                        width: 100px;
+                        height: 50px;
+                        font-weight: bold;
+                        border-radius: 10px;
+                        background-color: white;
+                        text-align: center;
+                        border-width: 1px;
+                }
+
+                .memory{
+                        display: flex;
+                        margin-top: 30px;
+                        gap: 10px;
+                }
+
+                .btns{
+                        background: none;
+                }
+
+                dialog{
+                        width: 800px;
+                        height: 900px;
+                        border: none;
+                        border-radius: 18px;
+                        padding: 20px;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        translate: -50% -50%;
+                }
+
+                dialog button{
+                        margin-left: 720px;
+                        border-radius: 8px;
+                        font-size: 25px;
+                      
+                }
+
+                dialog h1  {
+                        display: flex;
+                        text-align: center;
+                        justify-content: space-around;
+                }
+
+                dialog p {
+                        display: flex;
+                        text-align: center;
+                        justify-content: space-around;
+                }
+
+                .size{
+                     
+                }
+
+
+
+        </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="https://i.ytimg.com/vi/qX3MsH89Pag/hqdefault.jpg" class="logo">
+                <img width="25" src="./img/apple-logo-svgrepo-com.svg" alt="apple">
+            </a>
+                <p class="head1">Store</p>
+                <p class="head1">Mac</p>
+                <p class="head1">IPad</p>
+                <p class="head1">IPhone</p>
+                <p class="head1">Watch</p>
+                <p class="head1">Vision</p>
+                <p class="head1">AirPots</p>
+                <p class="head1">TV & Home</p>           
+                <p class="head1">Entertainment</p>
+                <p class="head1">Accessories</p>
+                <p class="head1">Support</p>
+                <img src="./img/search.svg" alt="">
+                <img src="./img/shopping-bag.svg" alt="">
+
+         
+            <a href="https://www.apple.com/shop/bag">
+                <img src="./img/bag.png " alt="">
+            </a>
+        </header>
+        <div class="first">
+            <div class="second">
+                <p style="font-size: 15px; padding-left: 40px; max-width: 200px;">
+                    Carrier Deals at Apple  <br>
+
+                        <button class="btns"><a href="#" style="color: #06c; text-decoration:dashed;">See all deals</a></button> 
+                        <dialog>
+                                <button>X</button>
+                                <h1>Incredible carrier deals? <br> We’ve got ‘em right here. 😎</h1> <br>
+                                <p>When you buy your new iPhone from Apple, you can still get a sweet carrier deal. <br> Just select your trade-in to see how much you can save. Have questions? No worries, <br> href="#">our iPhone Specialists are here to help.</p>
+
+                                <div class="size">
+                                        <button><img src="https://wallpapers.com/images/hd/att-icndstwjdir5j68r.jpg" alt=""></button>
+                                        <button></button>
+                                        <button></button>
+
+                                </div>
+                        </dialog>
+           
+                    
+                </p>
+
+            </div>
+            <div class="second">
+                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/desktop-bfe-iphone-step1-bugatti-banner-att?wid=48&hei=48&fmt=png-alpha&.v=1658193314821"
+                    alt="">
+                <p>Pay as low as $0 after
+                    trade-in.footnote</p>
+            </div>
+            <div class="second">
+                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/desktop-bfe-iphone-step1-bugatti-banner-tmobile?wid=48&hei=48&fmt=png-alpha&.v=1658193314615"
+                    alt="">
+                <p>Pay as low as $8.30/mo after
+                    trade-in.footnote</p>
+            </div>
+            <div class="second">
+                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/desktop-bfe-iphone-step1-bugatti-banner-verizon?wid=48&hei=48&fmt=png-alpha&.v=1658193314762"
+                    alt="">
+                <p style="padding-right: 40px;">Pay as low as $4.69/mo.
+                    after trade-in.footnote</p>
+            </div>
+        </div>
+
+        <div class="third">
+            <h1>Buy iPhone 15 Pro
+
+                <p>From $999 or $41.62/mo. for 24 mo.</p>
+            </h1>
+            <div class="btn">
+                <button class="btn1" style="margin-left: 500px;">
+                    Get
+                    $60–$650 for your trade-in.
+                </button>
+                <button class="btn1" style="margin-left: 445px;">Get 3% Daily Cash back with Apple Card.</button>
+            </div>
+        </div>
+
+        <div class="phones">
+            <div class="image_container" id="imageContainer">
+                <img src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-blacktitanium?wid=5120&hei=2880&fmt=webp&qlt=70&.v=VW44dkRidm5wazhwcGxtL0cyaEJ2VTkrNXBUdUJSK1k4NE5seUtJaW80ZW95OFpIcWQ1d0NuTUppaGxOVkdhQWlCQmV2WTA2cncybDF2YzFnKzI0S2prMCtUNWwzYWR0UVU3TWVsbEdUeXRjODhrWk5XcFl2eGdtMU93TW5UemNnaGZTejMxa0hnUE1YYTBGeVJZdVBBPT0=&traceId=1" alt="naturaltitanium" id="image">
+
+            </div>
+            <div class="sort">
+                <p>Model<p style="color: gray;;">Which is best for you?</p>
+                </p>
+                <div>
+                    <button class="Iphone15">iPhone 15 Pro
+                        6.1-inch display footnote </button>
+                    <button class="Iphone15">iPhone 15 Pro Max
+                        6.7-inch display footnote </button>
+                </div>
+                <button class="help">Need help choosing a model?
+                    Explore the differences in screen size and battery life.</button>
+                <p>Finish. <p style="color: gray;">Pick your favorite.</p>
+                </p>
+                <p style="font-size: 16px; margin-top: 25px; margin-bottom: 12px;">Color</p>
+                <button data-color="naturalTitanium"></button>
+                <button data-color="blackTitanium"></button>
+                <button data-color="blueTitanium"></button>
+                <button data-color="whiteTitanium"></button>
+
+                <p style="margin-top: 24px;">Storage.<p style="color: gray; ;">How much space do you need?</p>
+                </p>
+                <div class="memory">
+                    <button>128gb</button>
+                    <button>256gb</button>
+                    <button>512gb</button>
+                    <button>1024gb</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
